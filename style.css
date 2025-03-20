@@ -9,6 +9,6 @@ input {
     display: block;
 }
 
-input + .error.active{
+input:has( + .error.active){
     background-color: rgb(210, 119, 119);
 }
