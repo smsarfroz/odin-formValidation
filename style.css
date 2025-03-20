@@ -1,0 +1,14 @@
+.error {
+    display: block;
+}
+
+.error.active {
+    color: red;
+}
+input {
+    display: block;
+}
+
+input + .error.active{
+    background-color: rgb(210, 119, 119);
+}
